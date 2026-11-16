@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include simulator *.css
+recursive-include simulator *.csv
+recursive-include simulator *.html
+recursive-include simulator *.ico
+recursive-include simulator *.js
+recursive-include simulator *.json
+recursive-include simulator *.md
+recursive-include simulator *.png
+recursive-include simulator *.py
+recursive-include simulator *.svg
+recursive-include simulator *.txt
+recursive-exclude simulator *.pyc
